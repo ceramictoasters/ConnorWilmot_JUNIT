@@ -12,35 +12,6 @@ public class NewTelephoneCompanyTest_WBT {
 	  public void setUp() throws Exception {
 	    ntc = new NewTelephoneCompany();
 	  }
-	@Test
-	public void testGetStartTime() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testSetStartTime() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testGetDuration() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testSetDuration() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testComputeCharge() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testMain() {
-		fail("Not yet implemented");
-	}
 	
 	@Test(expected=UnsupportedOperationException.class)
 	public void testInvalidStartTime() {
